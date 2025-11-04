@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="第 1 页" id="ZXphobQNCvXr_iCqhj3R">
-    <mxGraphModel dx="938" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1318" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -127,34 +127,105 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_NINaLvxvfsO1sP4Jfxg-1" value="ECConnectorModelRunnerMixin" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+        <mxCell id="_NINaLvxvfsO1sP4Jfxg-1" value="ECConnectorModelRunnerMixin" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="1664" width="590" height="134" as="geometry" />
         </mxCell>
-        <mxCell id="_NINaLvxvfsO1sP4Jfxg-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=1;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="_NINaLvxvfsO1sP4Jfxg-1">
+        <mxCell id="_NINaLvxvfsO1sP4Jfxg-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=1;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="_NINaLvxvfsO1sP4Jfxg-1" vertex="1">
           <mxGeometry y="26" width="590" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="_NINaLvxvfsO1sP4Jfxg-4" value="+ &lt;b&gt;maybe_save_ec_to_connector&lt;/b&gt;(encoder_cache: dict[str, torch.Tensor], mm_hash: str):&lt;div&gt;+&amp;nbsp;&lt;b&gt;get_finished_ec_transfers&lt;/b&gt;(scheduler_output: &quot;SchedulerOutput&quot;):&amp;nbsp;tuple[set[str] | None, set[str] | None]&lt;/div&gt;&lt;div&gt;+&amp;nbsp;&lt;b&gt;maybe_get_ec_connector_output&lt;/b&gt;(scheduler_output: &quot;SchedulerOutput&quot;, encoder_cache: dict[str, torch.Tensor], **kwargs):&amp;nbsp;AbstractContextManager[ECConnectorOutput | None]&lt;/div&gt;&lt;div&gt;+&amp;nbsp;&lt;b&gt;maybe_wait_for_ec_save&lt;/b&gt;()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="_NINaLvxvfsO1sP4Jfxg-1">
+        <mxCell id="_NINaLvxvfsO1sP4Jfxg-4" value="+ &lt;b&gt;maybe_save_ec_to_connector&lt;/b&gt;(encoder_cache: dict[str, torch.Tensor], mm_hash: str):&lt;div&gt;+&amp;nbsp;&lt;b&gt;get_finished_ec_transfers&lt;/b&gt;(scheduler_output: &quot;SchedulerOutput&quot;):&amp;nbsp;tuple[set[str] | None, set[str] | None]&lt;/div&gt;&lt;div&gt;+&amp;nbsp;&lt;b&gt;maybe_get_ec_connector_output&lt;/b&gt;(scheduler_output: &quot;SchedulerOutput&quot;, encoder_cache: dict[str, torch.Tensor], **kwargs):&amp;nbsp;AbstractContextManager[ECConnectorOutput | None]&lt;/div&gt;&lt;div&gt;+&amp;nbsp;&lt;b&gt;maybe_wait_for_ec_save&lt;/b&gt;()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="_NINaLvxvfsO1sP4Jfxg-1" vertex="1">
           <mxGeometry y="34" width="590" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="_NINaLvxvfsO1sP4Jfxg-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;ECConnectorBase&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ role: ECConnectorRole&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;b&gt;role&lt;/b&gt;(self): ECConnectorRole&lt;/p&gt;&lt;div&gt;+&amp;nbsp;&lt;b&gt;is_producer&lt;/b&gt;(self): bool&lt;/div&gt;&lt;div&gt;+&amp;nbsp;&lt;b&gt;bind_connector_metadata&lt;/b&gt;(self, connector_metadata: ECConnectorMetadata): None&lt;/div&gt;&lt;div&gt;+&amp;nbsp;&lt;b&gt;clear_connector_metadata&lt;/b&gt;(self): None&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="_NINaLvxvfsO1sP4Jfxg-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;ECConnectorBase&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ role: ECConnectorRole&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;b&gt;role&lt;/b&gt;(self): ECConnectorRole&lt;/p&gt;&lt;div&gt;+&amp;nbsp;&lt;b&gt;is_producer&lt;/b&gt;(self): bool&lt;/div&gt;&lt;div&gt;+&amp;nbsp;&lt;b&gt;bind_connector_metadata&lt;/b&gt;(self, connector_metadata: ECConnectorMetadata): None&lt;/div&gt;&lt;div&gt;+&amp;nbsp;&lt;b&gt;clear_connector_metadata&lt;/b&gt;(self): None&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="70" y="1070" width="330" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="_NINaLvxvfsO1sP4Jfxg-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;NPUModelRunner&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+        <mxCell id="_NINaLvxvfsO1sP4Jfxg-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;NPUModelRunner&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="465" y="1560" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_NINaLvxvfsO1sP4Jfxg-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;GPUModelRunner&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+        <mxCell id="_NINaLvxvfsO1sP4Jfxg-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;GPUModelRunner&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="185" y="1560" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_NINaLvxvfsO1sP4Jfxg-14" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="_NINaLvxvfsO1sP4Jfxg-9" target="_NINaLvxvfsO1sP4Jfxg-1">
+        <mxCell id="_NINaLvxvfsO1sP4Jfxg-14" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" parent="1" source="_NINaLvxvfsO1sP4Jfxg-9" target="_NINaLvxvfsO1sP4Jfxg-1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="40" y="1630" as="sourcePoint" />
             <mxPoint x="200" y="1630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_NINaLvxvfsO1sP4Jfxg-15" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="_NINaLvxvfsO1sP4Jfxg-7" target="_NINaLvxvfsO1sP4Jfxg-1">
+        <mxCell id="_NINaLvxvfsO1sP4Jfxg-15" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" parent="1" source="_NINaLvxvfsO1sP4Jfxg-7" target="_NINaLvxvfsO1sP4Jfxg-1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="380" y="1610" as="sourcePoint" />
             <mxPoint x="453" y="1684" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCXgad1K8o2VB7u_Wapi-1" value="Proxy" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="90" y="2180" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="wCXgad1K8o2VB7u_Wapi-2" value="Scheduler [E]" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="230" y="2180" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="wCXgad1K8o2VB7u_Wapi-3" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="2230" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wCXgad1K8o2VB7u_Wapi-11" value="Worker [E]" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="350" y="2180" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="wCXgad1K8o2VB7u_Wapi-12" value="EC Connector [E]" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="470" y="2180" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="wCXgad1K8o2VB7u_Wapi-13" value="Distributed Cache Pool" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="610" y="2180" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="wCXgad1K8o2VB7u_Wapi-14" value="Scheduler [PD]" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="760" y="2180" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="wCXgad1K8o2VB7u_Wapi-15" value="Worker&amp;nbsp;[PD]" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="880" y="2180" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="wCXgad1K8o2VB7u_Wapi-16" value="EC Connector&amp;nbsp;[PD]" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1000" y="2180" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="wCXgad1K8o2VB7u_Wapi-17" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;" edge="1" parent="1" source="wCXgad1K8o2VB7u_Wapi-3" target="wCXgad1K8o2VB7u_Wapi-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="70" y="2270" as="sourcePoint" />
+            <mxPoint x="230" y="2270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCXgad1K8o2VB7u_Wapi-19" value="generate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wCXgad1K8o2VB7u_Wapi-17">
+          <mxGeometry x="-0.3073" y="-2" relative="1" as="geometry">
+            <mxPoint x="9" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCXgad1K8o2VB7u_Wapi-18" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="140" y="2290" as="sourcePoint" />
+            <mxPoint x="280" y="2290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCXgad1K8o2VB7u_Wapi-20" value="generate request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wCXgad1K8o2VB7u_Wapi-18">
+          <mxGeometry x="-0.0143" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCXgad1K8o2VB7u_Wapi-21" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;" edge="1" parent="1" target="wCXgad1K8o2VB7u_Wapi-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="280" y="2320" as="sourcePoint" />
+            <mxPoint x="440" y="2320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCXgad1K8o2VB7u_Wapi-22" value="build_connector_metadata" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wCXgad1K8o2VB7u_Wapi-21">
+          <mxGeometry x="-0.2651" y="1" relative="1" as="geometry">
+            <mxPoint x="32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCXgad1K8o2VB7u_Wapi-23" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;" edge="1" parent="1" target="wCXgad1K8o2VB7u_Wapi-11">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="280" y="2360" as="sourcePoint" />
+            <mxPoint x="440" y="2360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCXgad1K8o2VB7u_Wapi-24" value="execute_model" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wCXgad1K8o2VB7u_Wapi-23">
+          <mxGeometry x="0.0544" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
