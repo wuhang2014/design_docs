@@ -4,83 +4,86 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-26" value="HTTP API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-26" value="HTTP API" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="1320" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-27" value="Python API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-27" value="Python API" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="1320" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-28" value="llm-service architecture" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-28" value="llm-service architecture" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="350" y="1169" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-63" value="Disaggregation Inference API Core" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-63" value="Disaggregation Inference API Core" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="80" y="1390" width="520" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-64" value="Disaggregation Inference API Core" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-64" value="Disaggregation Inference API Core" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="440" y="2390" width="510" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-65" value="vLLM compliant Python API" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-65" value="vLLM compliant Python API" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="570" y="2310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-66" value="SGLang compliant Python API" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-66" value="SGLang compliant Python API" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="700" y="2310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-67" value="HTTP API Server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-67" value="HTTP API Server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="440" y="2310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-68" value="Other engine compliant Python API" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-68" value="Other engine compliant Python API" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="830" y="2310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-69" value="Disagg Proxy" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-69" value="Disagg Proxy" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="440" y="2474.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-70" value="RPC" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-70" value="RPC" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="440" y="2550" width="510" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-71" value="Load Balancer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-71" value="Load Balancer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="700" y="2474.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-72" value="Disagg Worker" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-72" value="Disagg Worker" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="440" y="2624.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-73" value="Cluster Monitor" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-73" value="Cluster Monitor" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="570" y="2474.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-74" value="Encode&lt;div&gt;Inference Engine&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-74" value="Encode&lt;div&gt;Inference Engine&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="440" y="2700" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-75" value="Disagg Worker" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-75" value="Disagg Worker" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="570" y="2624.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-76" value="Prefill&lt;div&gt;Inference Engine&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-76" value="Prefill&lt;div&gt;Inference Engine&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="570" y="2700" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-77" value="Disagg Worker" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-77" value="Disagg Worker" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="700" y="2624.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-78" value="Decode&lt;div&gt;Inference Engine&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-78" value="Decode&lt;div&gt;Inference Engine&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="700" y="2700" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-79" value="Distributed Cache Pool" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-79" value="Distributed Cache Pool" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="440" y="2780" width="510" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-80" value="Disagg Worker" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-80" value="Disagg Worker" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="830" y="2624.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-81" value="Generation&lt;div&gt;Inference Engine&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-81" value="Generation&lt;div&gt;Inference Engine&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="830" y="2700" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-82" value="Disagg Proxy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-82" value="Disagg Proxy" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="1470" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-83" value="Load Balancer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-83" value="Load Balancer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="1470" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-84" value="Cluster Monitor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-84" value="Cluster Monitor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="1470" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-85" value="Preprocessor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3z7eVyMP5JTW3Ah9B-Co-85" value="Preprocessor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="1470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tr6mPI1pqE0ViahLrM61-2" value="RPC Framework" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1540" width="520" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
