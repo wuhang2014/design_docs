@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.9">
   <diagram name="第 1 页" id="ZXphobQNCvXr_iCqhj3R">
-    <mxGraphModel dx="1240" dy="-523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1346" dy="-614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -85,7 +85,7 @@
         <mxCell id="Tr6mPI1pqE0ViahLrM61-2" value="RPC Framework" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="250" y="1430" width="280" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Tr6mPI1pqE0ViahLrM61-3" value="MM Preprocessor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Tr6mPI1pqE0ViahLrM61-3" value="Multimodal Preprocessor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="355" y="1370" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Tr6mPI1pqE0ViahLrM61-5" value="HTTP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -94,7 +94,7 @@
         <mxCell id="Tr6mPI1pqE0ViahLrM61-6" value="ZeroMQ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="355" y="1460" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Tr6mPI1pqE0ViahLrM61-7" value="gRPC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Tr6mPI1pqE0ViahLrM61-7" value="Other RPC Libraries..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="435" y="1460" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Tr6mPI1pqE0ViahLrM61-8" value="Disagg Worker" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;verticalAlign=top;" vertex="1" parent="1">
@@ -121,11 +121,14 @@
         <mxCell id="Tr6mPI1pqE0ViahLrM61-15" value="Other Cache Components..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="435" y="1640" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Tr6mPI1pqE0ViahLrM61-16" value="Service Discovery" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Tr6mPI1pqE0ViahLrM61-16" value="Tool Call" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="435" y="1370" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Tr6mPI1pqE0ViahLrM61-18" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;llm-service(组件名待定)&lt;/h1&gt;&lt;p&gt;llm-service is a high performance proxy focused on LLM and LMM&#39;s disaggregated serving, e.g. encoder disaggregated, prefill disaggregated, etc. It exposes OpenAI compatible API for out-of-box using, while offering Python SDK for users who integret with their own serving framework.&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Architecture&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;HTTP Server: exposes OpenAI compatible APIs and other APIs for health check and monitor.&lt;/li&gt;&lt;li&gt;Python SDK: offers python async API, and is used to be integreted into costomer&#39;s own serving framework.&lt;/li&gt;&lt;li&gt;Disaggregation Inference API Core: is a high performance implementations for both HTTP and Python API:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Disagg Proxy: is&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="550" y="1170" width="480" height="550" as="geometry" />
+        <mxCell id="Tr6mPI1pqE0ViahLrM61-18" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;llm-service&lt;/h1&gt;&lt;p&gt;llm-service is a high performance proxy focused on LLM and LMM&#39;s disaggregated serving, e.g. encoder disaggregated, prefill disaggregated, etc. It exposes OpenAI compatible API for out-of-box using, while offering Python SDK for users who integret with their own serving framework.&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Architecture&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;HTTP Server&lt;/b&gt;: exposes OpenAI compatible APIs and other APIs for health check and monitor.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Python SDK&lt;/b&gt;: offers python async API, and is used to be integreted into costomer&#39;s own serving framework.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Disaggregation Inference API Core&lt;/b&gt;: is a high performance implementations for both HTTP and Python API:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Disagg Proxy&lt;/b&gt;: is responsible for coordination of different type of Disagg Workers for disaggregated serving&lt;/li&gt;&lt;li&gt;&lt;b&gt;Load Balancer&lt;/b&gt;: is responsible for balance work load across Disagg Workers of same type, supporting cache aware routing policy. It also can be extended with other advanced routing policy.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Worker Monitor&lt;/b&gt;: monitors all Disagg Workers to collect metrics and do health check. It also is responsible for new workers registrition and dereg.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Text Tokenizer&lt;/b&gt;: tokenizes text to tokens, could be higher performant with a Rust/C++ implementation.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Multimodal Preprocessor&lt;/b&gt;: preprocesses multimodal data e.g. image, video, audio. It loads data into memory efficiently.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Tool Call&lt;/b&gt;: contains tool parser which parses model&#39;s output with a parser format, and also contains a tool caller especially for native tools and mcp tools.&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;b&gt;RPC Framework&lt;/b&gt;: is responsible for creating connections and communicating between Disagg Proxy and Disagg Workers.&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;HTTP&lt;/b&gt;: is adapted to OpenAI compatible APIs and native vLLM/SGLang HTTP APIs.&lt;/li&gt;&lt;li&gt;&lt;b&gt;ZeroMQ&lt;/b&gt;: is a high performance rpc library which is used to send and receive structured messages defined by llm-service. It costs less than HTTP especially with multimodal data.&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;b&gt;Disagg Worker&lt;/b&gt;: is working part of disaggregated serving. One worker is either a encoder, prefill, decode or generate in future. It is enforced by inference engines such as vLLM, SGLang, etc.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Distributed Cache Pool&lt;/b&gt;: is a component for cache data across different type of workers. It usually has a hierachical memory pool, and cached data can be easily and efficiently shared.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1170" width="570" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="Tr6mPI1pqE0ViahLrM61-19" value="&lt;h1 style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; margin-top: 0px;&quot;&gt;&lt;font style=&quot;forced-color-adjust: none; font-size: 12px;&quot;&gt;组件名待定:llm指语言模型，而我们的组件应用场景面向多模态以及未来的全模态，llm-service不准确&lt;/font&gt;&lt;/h1&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1700" width="280" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
